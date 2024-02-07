@@ -110,7 +110,7 @@ var Scene =  function (paperScope, width, height) {
 		this.raster.sendToBack();
 	}
 
-	this.loadImage('src/assets/img/1391015425255-1xzonat68dlrm-960-540.jpg');
+	this.loadImage('./img/1391015425255-1xzonat68dlrm-960-540.jpg');
 
 	this.getLine = function(name) {
 		return self.sceneLines[name];
